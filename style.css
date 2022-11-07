@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li a{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    /* color: black !important; */
+}
+h2 span{
+    font-size: 35px;
+    font-weight: 900;  
+}
+h2{
+    padding-top: 160px;
+}
+h1{
+    font-size: 50px !important;
+}
+p{
+    color:rgb(50, 130, 80) ;
+    font-size: 50px;
+    font-weight: 500;
+}
+form input{
+    width: 85%;
+    height: 50px;
+    border-radius: 20px;
+    text-indent: 40px;
+    font-size: 15px;
+    outline: none;
+    border: 3px solid rgb(50, 130, 80);
+}
+form button{
+    border: none;
+    background-color: rgb(50, 130, 80);
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left:-190px;
+}
+.rang{
+    color: rgb(33, 37, 41);
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+.imag img{
+    margin-left: 40%;
+    margin-top: 20%;
+    width: 110%;
+}
+.icons{
+    color: rgb(50, 130, 80);
+    font-size: 40px;
+    display: flex;
+}
+i{
+    margin-left: 7px;
+}
+.all{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 2px solid rgb(50, 130, 80);
+}
+section{
+    height: 105vh;
+    background-color: white;
+}
+.last{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 35px !important;
+    color: rgb(50, 130, 80);
+}
+#card-one{
+    margin-top: 10%;
+    width: 550px;
+    height: 95% !important;
+    box-shadow: 0 0 1px rgb(50, 130, 80) ;
+    border-top: 4px solid rgb(50, 130, 80);
+    border-bottom: 4px solid rgb(50, 130, 80);
+    border-left: white;
+    border-right: white;
+
+}
+#card-onee{
+    margin-top: 10%;
+    margin-left: -80px;
+    height: 95% !important;
+    /* box-shadow: 0 0 1px rgb(50, 130, 80) ; */
+    border-top: 4px solid rgb(50, 130, 80);
+    border-bottom: 4px solid rgb(50, 130, 80)
+}
+.card-content{
+    margin-top: 20px;
+}
+.ic{
+    font-size: 35px;
+    color: rgb(50, 130, 80);
+    width: 55px;
+    height: 53px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(231, 245, 251);
+}
+.ic:hover{
+    background-color: rgb(50, 130, 80);
+    transition: 1s;
+}
+
+.ic i{
+      color: rgb(50, 130, 80);
+
+}
+.ic i:hover{
+    color: rgb(231, 245, 251);
+    transition: 1s;
+}
+
+.address span{
+    color: rgb(50, 130, 80);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.address{
+    color: black;
+    font-size: 25px;
+    margin-left:40px;
+}
+.card-content{
+    display: flex;
+    flex-direction: row;
+}
+iframe{
+    margin-top: 40px;
+}
+#name{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#sub{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#mess{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#pw{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+#inputEmail4{
+    width: 90% !important;
+    margin-left: 20px;
+    text-indent: 5px;
+}
+#pw{
+    margin-left: 5px;
+}
+#inputPassword4{
+    width: 90%;
+}
+#inputAddress{
+    width: 95%;
+    margin-left: 20px;
+}
+#inputAddress2{
+    width: 95%;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.butt button{
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 25%;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(50, 130, 80);
+}
+h5{
+    text-align: center;
+    margin-top: 80px !important;
+}
+
+
+@media screen and (max-width: 768px){
+    .row2{
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+       padding: 0 !important;
+       padding-top: 130px !important;
+    }
+    .rang{
+        font-size: 15px ;
+    }
+    .imag img{
+        margin: 0 !important;
+        width: 97%;
+    }
+    .icons{
+        margin-left: 50px;
+    }
+    #card-one{
+        width: 390px;
+    }
+    #card-onee{
+        width: 390px;
+        margin: 0 !important;
+        margin-top: 20px !important;
+        height: 100% !important;
+    }
+    #name{
+        font-size: 15px;
+    }
+    #pw{
+        font-size: 15px;
+        margin: 0 !important;
+        margin-left: 15px !important;
+    }
+    #inputPassword4{
+        margin-left: 18px !important;
+    }
+    #sub{
+        font-size: 15px;
+    }
+    #inputAddress{
+        width: 90%;
+    }
+    #mess{
+        font-size: 15px;
+
+    }
+    #inputAddress2{
+        margin: 0 !important;
+        width: 90%;
+        margin-left: 20px !important;
+        /* margin-top: -30px !important; */
+        /* height: 170%; */
+    }
+    section{
+        height: 200vh !important;
+    }
+
+    .ic{
+        text-indent: 2px;
+    }
+    #icc{
+        width: 89px !important;
+        text-indent: 1.8px;
+
+    }
+    .butt button{
+        width: 65% !important;
+        /* margin: 0 !important; */
+        margin-left: 68px !important;
+    }
+}
+  
